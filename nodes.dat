@@ -1,0 +1,16 @@
+   6
+0   2   3  541: go to left side of room
+2: go to right side of room
+1   0   0  10u died lol
+0   1   3  69there is only a window
+1: open window
+2: go to right side of the room
+0   4   5  75there is a locked chest and a door
+1: try to open chest
+2: try to open door
+0   4   3  32you cant
+1: try again
+2: go back
+0   5   1  82you forgot your left and rights
+1: turn the knob that way
+2: turn it the other way
