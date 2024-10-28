@@ -69,9 +69,9 @@ int main() {
 
 	while (true) {
 		printf("%s\n", nodes[curNode]->message);
-		if (nodes[curNode]->end) { return 1; }
+		if (nodes[curNode]->end) { return 0; }
 		c = getchar();
 		curNode = (c == '1') ? nodes[curNode]->option1 : nodes[curNode]->option2;
-		while (getchar() != '\n') { }
+		while (getchar() != 10) { }
 	}
 }
