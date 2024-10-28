@@ -29,7 +29,7 @@ int main() {
 	fread(buffer, sizeof(char), 4, fptr);
 	fgetc(fptr);				// eat return carrige cuz i aint editing no ugly aah file
 	int amountOfNodes = atoi(buffer);
-	printf("Amount of nodes:\t%d\n", amountOfNodes);
+	//printf("Amount of nodes:\t%d\n", amountOfNodes);
 
 	free(buffer);
 
