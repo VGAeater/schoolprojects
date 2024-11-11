@@ -1,3 +1,10 @@
+/*
+ * Name: Stratton
+ * Program: calculator
+ * date: 9/25
+ * Extra: calc is in one line
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
