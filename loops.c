@@ -61,7 +61,7 @@ int main() {
 
 	do {
 		printf("Enter the three digit passcode: \n");
-		scanf("%d", guess);
+		scanf("%d", &guess);
 
 		if (guess == randNumber) {
 			printf("You unlocked the box!\n");
