@@ -47,7 +47,7 @@ int main() {
 	srand(time(NULL));
 	int randNumber = rand();
 
-	printf("%d", randNumber);
+	printf("%d", &randNumber);
 
 	int guess;
 	int tryAgain;
