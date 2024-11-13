@@ -24,10 +24,8 @@ int main() {
 
 	printf("\n\n");
 	curr = &first;
-	while (1) {
+	while (curr != NULL) {
 		printf("%s", curr->string);
 		curr = curr->next;
-		if (curr == NULL)
-			break;
 	}
 }
