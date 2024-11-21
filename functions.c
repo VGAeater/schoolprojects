@@ -1,3 +1,9 @@
+/*
+ * Stratton Jelley
+ * Functions
+ * 11/21
+ */
+
 #include <stdio.h>
 
 void countdown() {
@@ -17,7 +23,10 @@ int calculateAverage(int a, int b, int c) { return (a + b + c) / 3; }
 
 int main() {
 	countdown();
-	customGreet("Stratton", getFavoriteNumber());
+	printf("WHat is ur name: ");
+	char name[20];
+	scanf("%s", name);
+	customGreet(name, getFavoriteNumber());
 	int favNumber = getFavoriteNumber();
 	int a, b, c;
 	printf("enter 3 nums: ");
