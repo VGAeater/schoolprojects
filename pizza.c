@@ -127,9 +127,9 @@ int main() {
 	int running = 1;
 	while ( running ) {
 		printf("$ ");
-		int option = getchar() - 48;		// map to integers
+		int option = getchar();
 
-		switch ( option ) {
+		switch ( option - 48 ) {		// map to integers
 			case 0: printOptions();		break;
 			case 1: printMenu(products);	break;
 			case 2: printOrder(orders);	break;
@@ -143,6 +143,6 @@ int main() {
 			case 4: printOrder(orders); running = 0;	break;
 		}
 
-		if ( option != '\n' - 48 ) while ( getchar() != '\n' ) {}	// special case for no input
+		if ( option != '\n' ) while ( getchar() != '\n' ) {}	// special case for no input
 	}
 }
