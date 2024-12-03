@@ -1,0 +1,29 @@
+P		total amount of products (how many times the rest is repeated)
+
+IIII		id
+RRRR		rating
+S		onsale
+L		length of name
+[N]*L		name
+J		length of short description
+[H]*J		short description
+K		length of description
+[D]*K		description
+O		amount of options
+[PPPP]*O	price
+[M		length of next option
+[Q]*M]*O	next option
+[AAAA]*O	amount in cart
+
+struct product {
+	int *amountincart;
+	int amountofoptions;
+	int id;
+	float *price;
+	float rating;
+	bool onsale;
+	char *name;
+	char *description;
+	char *shortdesc;
+	char **options;
+};
